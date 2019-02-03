@@ -1,0 +1,60 @@
+/* Some gloabal DQ.com CSS not included. Final version can be found at http://qa.dairyqueen.com/us-en/commtest2/ */
+
+p {
+	margin: auto 5%;
+	
+}
+
+
+.headers {
+    margin: 0;
+    font-size: 4.5em;
+    letter-spacing: -0.06944em;
+    color: #e7131a;
+    font-family: PlutoHeavy, Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background: url(images/header-bg-inverse.png) 0 100% repeat-x;
+    min-height: 150px;
+}
+
+
+
+.subheaders {
+	color: #d41118; 
+	font: 2em/1.25 PlutoBold, Arial, sans-serif;
+	clear: both;
+	text-align: center;
+	margin: 2%;
+	
+}
+
+.wrappers {
+	background: url(images/bg-pattern-drip-cream.png) repeat-x 0 100%;
+	padding: 100px;
+    position: relative;
+    min-height: 300px;
+    justify-content: center;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.images {
+	border-style: solid;
+	border-color: #f8f6f3;
+	border-width: 8px;
+	border-radius: 8px;
+	margin: auto 5%;
+	vertical-align: middle;
+	max-width: 100%;
+  	height: auto;
+  	position: static;
+    display: block;
+}
+
